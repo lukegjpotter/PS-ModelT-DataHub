@@ -82,7 +82,7 @@
     "useConfig": {
         "properties": [
             {
-                "location": "/commerce/config/local.properties"
+                "location": "/config/local.properties"
             }
         ]
     },
