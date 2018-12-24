@@ -79,6 +79,13 @@
      	 "value":"/hac"
     	}
     ],
+    "useConfig": {
+        "properties": [
+            {
+                "location": "/commerce/config/local.properties"
+            }
+        ]
+    },
    "aspects": [
          {
             "name": "backoffice",
