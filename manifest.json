@@ -144,18 +144,18 @@
     "useConfig": {
         "properties": [
             {
-                "location": "/commerce/config/local.properties"
+                "location": "/config/local.properties"
             },
             {
-                "location": "/commerce/config/local-dev.properties",
+                "location": "/config/local-dev.properties",
                 "persona": "development"
             },
             {
-                "location": "/commerce/config/local-stg.properties",
+                "location": "/config/local-stg.properties",
                 "persona": "staging"
             },
             {
-                "location": "/commerce/config/local-prod.properties",
+                "location": "/config/local-prod.properties",
                 "persona": "production"
             }
         ]
