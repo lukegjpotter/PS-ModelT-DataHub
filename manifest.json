@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "18.08",
+    "commerceSuiteVersion": "6.7.0.1",
     "extensions" :[
         "azurecloudhotfolder",
         "acceleratorservices",
