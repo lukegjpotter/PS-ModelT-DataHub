@@ -110,7 +110,10 @@
             {
                 "location": "/config/local.properties"
             }
-        ]
+        ],
+	"solr": {
+		"location": "/config/solr"
+	}
     },
    "aspects": [
          {
