@@ -2,6 +2,20 @@
     "datahub_version" : "6.7.0.9",
     "extensions" : [
         "sapcoreconfiguration",
-        "sapidocintegration"
+ 
+        "sapcustomer-canonical",
+        "sapcustomer-raw",
+        "sapcustomer-target",
+ 
+        "party-canonical",
+ 
+        "saperpproduct-canonical",
+        "saperpproduct-raw",
+        "saperpproduct-target",
+ 
+        "product-canonical",
+ 
+        "sapidocintegration",
+        "sapidocoutboundadapter"
      ]
 }
