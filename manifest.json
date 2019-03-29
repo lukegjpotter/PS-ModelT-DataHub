@@ -1,208 +1,168 @@
 {
-   "commerceSuiteVersion": "6.7.0.9",
-   "extensions": [
-       "optcustomerfacade",
-   	   "mcc",
-	"datahubadapter",
+    "commerceSuiteVersion": "1811.3",
+    "extensions": [
+        "mcc",
+        "datahubadapter",
         "datahubbackoffice",
-       "backoffice",
-       "platformbackoffice",
-       "basecommercebackoffice",  
-       "adaptivesearchsolr",
-       "adaptivesearchbackoffice",
-       "adaptivesearchsamplesaddon",
-       "adaptivesearchwebservices",
-       "commerceservicesbackoffice",
-       "solrfacetsearchbackoffice",
-       "ycommercewebservices",
-       "ycommercewebservicestest",
-       "electronicsstore",
-       "acceleratorwebservicesaddon",
-       "orderselfserviceaddon",
-       "customersupportbackoffice",
-       "customerticketingaddon",
-       "commerceorgsamplesaddon",
-       "rulebuilderbackoffice",
-       "couponbackoffice",
-       "droolsruleengineservices",
-       "couponfacades",
-       "promotionenginesamplesaddon",
-       "cmswebservices",
-       "smarteditwebservices",
-       "cmssmarteditwebservices",
-       "permissionswebservices",
-       "smarteditaddon",
-       "cmssmartedit",
-       "cmsbackoffice",
-       "cmsmulticountrycockpit",
-       "multicountrysampledataaddon",       
-       "textfieldconfiguratortemplatebackoffice",
-       "textfieldconfiguratortemplateaddon",
-       "assistedservicestorefront",
-       "assistedservicewebservices",
-       "assistedservicepromotionaddon",
-       "pcmbackofficesamplesaddon",
-       "customsitefulfilmentprocess",
-       "customsitefulfilmentprocess",
-       "customsitecockpits",
-       "customsitecore",
-       "customsitefacades",
-       "customsitetest",
-       "customsiteinitialdata",
-       "customsitestorefront",
-	   "hacfix"
-   ],
-   "properties": [
+        "backoffice",
+        "platformbackoffice",
+        "basecommercebackoffice",  
+        "adaptivesearchsolr",
+        "adaptivesearchbackoffice",
+        "adaptivesearchsamplesaddon",
+        "adaptivesearchwebservices",
+        "commerceservicesbackoffice",
+        "solrfacetsearchbackoffice",
+        "ycommercewebservices",
+        "ycommercewebservicestest",
+        "electronicsstore",
+        "acceleratorwebservicesaddon",
+        "orderselfserviceaddon",
+        "customersupportbackoffice",
+        "customerticketingaddon",
+        "commerceorgsamplesaddon",
+        "rulebuilderbackoffice",
+        "couponbackoffice",
+        "droolsruleengineservices",
+        "couponfacades",
+        "promotionenginesamplesaddon",
+        "cmswebservices",
+        "smarteditwebservices",
+        "cmssmarteditwebservices",
+        "permissionswebservices",
+        "smarteditaddon",
+        "cmssmartedit",
+        "cmsbackoffice",
+        "multicountrysampledataaddon",       
+        "textfieldconfiguratortemplatebackoffice",
+        "textfieldconfiguratortemplateaddon",
+        "assistedservicestorefront",
+        "assistedservicewebservices",
+        "assistedservicepromotionaddon",
+        "pcmbackofficesamplesaddon",
+        "solrserver",
+        "yacceleratorbackoffice",
+        "yacceleratorinitialdata",
+        "yacceleratorfulfilmentprocess",
+        "yacceleratorstorefront",
+        "apparelstore",
+        "couponservices",
+        "cmsoccaddon",
+        "outboundservices",
+        "odata2webservices",
+        "odata2webservicesfeaturetests",
+        "kymaintegrationbackoffice",
+        "kymaintegrationsampledata",
+        "sapcoreaddon",
+        "sapcoreconfigurationbackoffice",	
+        "sapmodelbackoffice",
+        "sappricingbackoffice",		
+        "ysaporderfulfillment",
+        "saporderexchangebackoffice",
+        "sapordermgmtbackoffice",
+        "sapproductavailabilitybackoffice",
+        "sapcreditcheckbackoffice",
+        "sapcoretest",
+        "sapreturnsexchange",
+        "ysaperpreturnprocess",
+		"b2bcommercebackoffice",
+		"powertoolsstore",
+		"b2bacceleratoraddon",
+		"commerceorgaddon",
+		"previewwebservices",
+		"secureportaladdon",
+		"sapcustomerb2bbackoffice",
+		"b2bsappricing",
+		"saporderexchangeb2b",
+		"ysapordermgmtb2baddon",
+		"b2bsapproductavailability",
+		"sapreturnsexchangeb2b"
+
+	],
+	"storefrontAddons": [
         {
-            "key": "lang.packs",
-            "value": "de,en,es,es_CO,fr,it,ja,ko,pt,ru,zh,zh_TW,hi,id,cs,cy"
-        },
-        {
-            "key": "datahub.backoffice.rest.client.username",
-            "value": "admin"
-        },
-        {
-            "key": "datahub.backoffice.rest.client.password",
-            "value": "nimda"
-        },
-        {
-            "key": "datahubadapter.datahuboutbound.url",
-            "value": "http://datahub:8080/datahub-webapp/v1"
-        },
-        {
-            "key": "datahubadapter.datahuboutbound.user",
-            "value": "admin"
-        },
-        {
-            "key": "datahubadapter.datahuboutbound.password",
-            "value": "nimda"
-        },
-	{
-            "key": "test.property.1",
-            "value": "test.property.1.value"
-        },
-        {
-            "key": "test.property.2",
-            "value": "global"
-        },
-        {
-            "key": "test.property.3",
-            "value": "persona.development",
-            "persona": "development"
-        },
-        {
-            "key": "test.property.4",
-            "value": "persona.staging",
-            "persona": "staging"
-        },
-        {
-            "key": "test.property.5",
-            "value": "persona.production",
-            "persona": "production"
-        },
-        {
-     	 "key":"hac.webroot",
-     	 "value":"/hac"
-    	}
-    ],
-    "useConfig": {
-        "properties": [
-            {
-                "location": "/config/local.properties"
-            }
-        ],
-	"solr": {
-		"location": "/config/solr"
-	}
-    },
-   "aspects": [
-         {
-            "name": "backoffice",
-            "properties": [],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                },
-                {
-                    "name": "backoffice",
-                    "contextPath": "/backoffice"
-                },
-		{
-                    "name": "datahubadapter",
-                    "contextPath": "/datahubadapter"
-                },
-		{
-                    "name": "oauth2",
-                    "contextPath": "/authorizationserver"
-                }
-            ]
-        },
-        {
-            "name": "accstorefront",
-            "properties": [
-               {
-                    "key": "regioncache.queryregion.evictionpolicy",
-                    "value": "LRU"
-                }
-            ],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                },
-                {
-                    "name": "customsitestorefront",
-                    "contextPath": ""
-                }
-            ]
-        },
-       {
-            "name": "backgroundProcessing",
-            "properties": [
-                {
-                    "key": "cluster.node.groups",
-                    "value": "backgroundProcessing"
-                },
-                {
-                    "key": "task.workers.max",
-                    "value": "40"
-                },
-                {
-                    "key": "impex.import.workers",
-                    "value": "8"
-                },
-                {
-                    "key": "catalog.sync.workers",
-                    "value": "8"
-                },
-                {
-                    "key": "task.polling.interval",
-                    "value": "1"
-                },
-                {
-                    "key": "processengine.process.canjoinpreviousnode.default",
-                    "value": "true"
-                }             
-            ],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                }
-            ]
+            "addon": "sapcoreaddon",
+			"storefront": "albinostorefront",
+            "template": "albinostorefront"
         }
-    ]
+    ],
+	"properties": [
+		{ "key": "lang.packs",                                        "value": "de,en"},
+		{ "key": "hac.webroot",                                       "value":"/hac"},
+		{ "key": "datahubadapter.security.https.enabled",             "value": "false"},
+        { "key": "datahubadapter.datahuboutbound.url",                "value": "http://datahub:8080/datahub-webapp/v1"},
+        { "key": "datahubadapter.datahuboutbound.user",               "value":"admin"},
+        { "key": "datahubadapter.datahuboutbound.password",           "value":"nimda"},
+        { "key": "datahub.backoffice.rest.client.username.admin",     "value":"admin"},
+        { "key": "datahub.backoffice.rest.client.password.admin",     "value":"nimda"},
+        { "key": "datahub.backoffice.rest.client.username.developer", "value":"admin"},
+        { "key": "datahub.backoffice.rest.client.password.developer", "value":"nimda"},
+        { "key": "keygen.customer.sap_customer_id.start",             "value": "0000490000"},
+        { "key": "keygen.customer.sap_contact_id.start",              "value": "0000490000"},
+        { "key": "keygen.order.code.start",                           "value": "0006200000"},
+        { "key": "keygen.returnorder.code.start",                     "value": "6782001"},
+        { "key": "sapcustomerexchange.outbound.datahub.feed",         "value": "SAPCONSUMER_OUTBOUND_FEED"},
+        { "key": "sapcoreconfiguration.datahuboutbound.enabled",      "value": "true"},
+        { "key": "numberseries.cache.size.order_code",                "value": "1"},
+        { "key": "saporderexchange.orderoutbound.maxRetries",         "value": "3"},
+        { "key": "log4j.logger.de.hybris.platform.sap.orderexchange", "value": "debug"}
+	],
+	"useConfig": {
+		"properties": [{ "location": "/config/local.properties" }],
+		"solr": { "location": "/config/solr" }
+	},
+	"aspects": [
+		{
+			"name": "backoffice",
+			"properties": [],
+			"webapps": [
+				{ "name": "hac",            "contextPath": "/hac" },
+				{ "name": "mediaweb",       "contextPath": "/medias" },
+				{ "name": "backoffice",     "contextPath": "/backoffice" },
+				{ "name": "datahubadapter", "contextPath": "/datahubadapter" },
+				{ "name": "oauth2",         "contextPath": "/authorizationserver" }
+			]
+		},
+		{
+			"name": "accstorefront",
+			"properties": [
+				{ "key": "regioncache.queryregion.evictionpolicy",      "value": "LRU" },
+				{ "key": "spring.session.enabled",                      "value": "true" },
+				{ "key": "spring.session.albinostorefront.save",        "value": "async" },
+				{ "key": "spring.session.albinostorefront.cookie.name", "value": "JSESSIONID" },
+				{ "key": "spring.session.albinostorefront.cookie.path", "value": "/" },
+				{ "key": "storefrontContextRoot",                       "value": "" }
+			],
+			"webapps": [
+				{ "name": "hac",                    "contextPath": "/hac" },
+				{ "name": "mediaweb",               "contextPath": "/medias" },
+				{ "name": "yacceleratorstorefront", "contextPath": "" },
+                { "name": "acceleratorservices",    "contextPath": "/acceleratorservices" }
+			]
+		},
+		{
+			"name": "backgroundProcessing",
+			"properties": [
+				{ "key": "cluster.node.groups",                               "value": "backgroundProcessing,integration,yHotfolderCandidate" },
+				{ "key": "task.workers.max",                                  "value": "40" },
+				{ "key": "impex.import.workers",                              "value": "8" },
+				{ "key": "catalog.sync.workers",                              "value": "8" },
+				{ "key": "task.polling.interval",                             "value": "1" },
+				{ "key": "processengine.process.canjoinpreviousnode.default", "value": "true" }             
+			],
+			"webapps": [
+                { "name": "hac",      "contextPath": ""  },
+                { "name": "mediaweb", "contextPath": "/medias" }
+            ]
+		}
+	],
+	"tests": {
+		"extensions": [ "kiwi", "tiger", "albinoaddon" ],
+		"annotations": [ "UnitTests", "IntegrationTests" ],
+		"packages": [ "com.acme.*" ]
+	},
+	"webTests": {
+		"extensions": [ "albinostorefront" ],
+		"excludedPackages": [ "de.hybris.*" ]
+	}
 }
