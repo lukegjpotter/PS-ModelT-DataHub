@@ -54,9 +54,9 @@
         "kymaintegrationbackoffice",
         "kymaintegrationsampledata",
         "sapcoreaddon",
-        "sapcoreconfigurationbackoffice",	
+        "sapcoreconfigurationbackoffice",   
         "sapmodelbackoffice",
-        "sappricingbackoffice",		
+        "sappricingbackoffice",     
         "ysaporderfulfillment",
         "saporderexchangebackoffice",
         "sapordermgmtbackoffice",
@@ -65,38 +65,38 @@
         "sapcoretest",
         "sapreturnsexchange",
         "ysaperpreturnprocess",
-		"b2bcommercebackoffice",
-		"powertoolsstore",
-		"b2bacceleratoraddon",
-		"commerceorgaddon",
-		"previewwebservices",
-		"secureportaladdon",
-		"sapcustomerb2bbackoffice",
-		"b2bsappricing",
-		"saporderexchangeb2b",
-		"ysapordermgmtb2baddon",
-		"b2bsapproductavailability",
-		"sapreturnsexchangeb2b"
+        "b2bcommercebackoffice",
+        "powertoolsstore",
+        "b2bacceleratoraddon",
+        "commerceorgaddon",
+        "previewwebservices",
+        "secureportaladdon",
+        "sapcustomerb2bbackoffice",
+        "b2bsappricing",
+        "saporderexchangeb2b",
+        "ysapordermgmtb2baddon",
+        "b2bsapproductavailability",
+        "sapreturnsexchangeb2b"
 
-	],
-	"storefrontAddons": [
+    ],
+    "storefrontAddons": [
         {
             "addon": "sapcoreaddon",
-			"storefront": "albinostorefront",
+            "storefront": "albinostorefront",
             "template": "albinostorefront"
         }
     ],
-	"properties": [
-		{ "key": "lang.packs",                                        "value": "de,en"},
-		{ "key": "hac.webroot",                                       "value":"/hac"},
-		{ "key": "datahubadapter.security.https.enabled",             "value": "false"},
+    "properties": [
+        { "key": "lang.packs",                                        "value": "de,en"},
+        { "key": "hac.webroot",                                       "value": "/hac"},
+        { "key": "datahubadapter.security.https.enabled",             "value": "false"},
         { "key": "datahubadapter.datahuboutbound.url",                "value": "http://datahub:8080/datahub-webapp/v1"},
-        { "key": "datahubadapter.datahuboutbound.user",               "value":"admin"},
-        { "key": "datahubadapter.datahuboutbound.password",           "value":"nimda"},
-        { "key": "datahub.backoffice.rest.client.username.admin",     "value":"admin"},
-        { "key": "datahub.backoffice.rest.client.password.admin",     "value":"nimda"},
-        { "key": "datahub.backoffice.rest.client.username.developer", "value":"admin"},
-        { "key": "datahub.backoffice.rest.client.password.developer", "value":"nimda"},
+        { "key": "datahubadapter.datahuboutbound.user",               "value": "admin"},
+        { "key": "datahubadapter.datahuboutbound.password",           "value": "nimda"},
+        { "key": "datahub.backoffice.rest.client.username.admin",     "value": "admin"},
+        { "key": "datahub.backoffice.rest.client.password.admin",     "value": "nimda"},
+        { "key": "datahub.backoffice.rest.client.username.developer", "value": "admin"},
+        { "key": "datahub.backoffice.rest.client.password.developer", "value": "nimda"},
         { "key": "keygen.customer.sap_customer_id.start",             "value": "0000490000"},
         { "key": "keygen.customer.sap_contact_id.start",              "value": "0000490000"},
         { "key": "keygen.order.code.start",                           "value": "0006200000"},
@@ -105,64 +105,72 @@
         { "key": "sapcoreconfiguration.datahuboutbound.enabled",      "value": "true"},
         { "key": "numberseries.cache.size.order_code",                "value": "1"},
         { "key": "saporderexchange.orderoutbound.maxRetries",         "value": "3"},
-        { "key": "log4j.logger.de.hybris.platform.sap.orderexchange", "value": "debug"}
-	],
-	"useConfig": {
-		"properties": [{ "location": "/config/local.properties" }],
-		"solr": { "location": "/config/solr" }
-	},
-	"aspects": [
-		{
-			"name": "backoffice",
-			"properties": [],
-			"webapps": [
-				{ "name": "hac",            "contextPath": "/hac" },
-				{ "name": "mediaweb",       "contextPath": "/medias" },
-				{ "name": "backoffice",     "contextPath": "/backoffice" },
-				{ "name": "datahubadapter", "contextPath": "/datahubadapter" },
-				{ "name": "oauth2",         "contextPath": "/authorizationserver" }
-			]
-		},
-		{
-			"name": "accstorefront",
-			"properties": [
-				{ "key": "regioncache.queryregion.evictionpolicy",      "value": "LRU" },
-				{ "key": "spring.session.enabled",                      "value": "true" },
-				{ "key": "spring.session.albinostorefront.save",        "value": "async" },
-				{ "key": "spring.session.albinostorefront.cookie.name", "value": "JSESSIONID" },
-				{ "key": "spring.session.albinostorefront.cookie.path", "value": "/" },
-				{ "key": "storefrontContextRoot",                       "value": "" }
+        { "key": "log4j.logger.de.hybris.platform.sap.orderexchange", "value": "debug"},
+        { "key": "deployment.api.endpoint",                           "value": "https://accstorefront.csemea-csemeaprod-d3-public.model-t.cc.commerce.ondemand.com" }
+    ],
+    "useConfig": {
+        "properties": [{ "location": "/config/local.properties" }],
+        "solr": { "location": "/config/solr" }
+    },
+    "aspects": [
+        {
+            "name": "backoffice",
+            "properties": [
+				{ "key":"storefrontContextRoot",     "value": "/yacceleratorstorefront" },
+				{ "key": "website.apparel-uk.http",  "value": "http://accstorefront.csemea-csemeaprod-d3-public.model-t.cc.commerce.ondemand.com"},
+                { "key": "website.apparel-uk.https", "value": "https://accstorefront.csemea-csemeaprod-d3-public.model-t.cc.commerce.ondemand.com"}
 			],
-			"webapps": [
-				{ "name": "hac",                    "contextPath": "/hac" },
-				{ "name": "mediaweb",               "contextPath": "/medias" },
-				{ "name": "yacceleratorstorefront", "contextPath": "" },
-                { "name": "acceleratorservices",    "contextPath": "/acceleratorservices" }
-			]
-		},
-		{
-			"name": "backgroundProcessing",
-			"properties": [
-				{ "key": "cluster.node.groups",                               "value": "backgroundProcessing,integration,yHotfolderCandidate" },
-				{ "key": "task.workers.max",                                  "value": "40" },
-				{ "key": "impex.import.workers",                              "value": "8" },
-				{ "key": "catalog.sync.workers",                              "value": "8" },
-				{ "key": "task.polling.interval",                             "value": "1" },
-				{ "key": "processengine.process.canjoinpreviousnode.default", "value": "true" }             
-			],
-			"webapps": [
-                { "name": "hac",      "contextPath": ""  },
+            "webapps": [
+                { "name": "hac",            "contextPath": "/hac" },
+                { "name": "mediaweb",       "contextPath": "/medias" },
+                { "name": "backoffice",     "contextPath": "/backoffice" },
+                { "name": "datahubadapter", "contextPath": "/datahubadapter" },
+                { "name": "oauth2",         "contextPath": "/authorizationserver" }
+            ]
+        },
+        {
+            "name": "accstorefront",
+            "properties": [
+                { "key": "regioncache.queryregion.evictionpolicy",      "value": "LRU" },
+                { "key": "spring.session.enabled",                      "value": "true" },
+                { "key": "spring.session.albinostorefront.save",        "value": "async" },
+                { "key": "spring.session.albinostorefront.cookie.name", "value": "JSESSIONID" },
+                { "key": "spring.session.albinostorefront.cookie.path", "value": "/" },
+                { "key": "storefrontContextRoot",                       "value": "" },
+				{ "key": "website.apparel-uk.http",                     "value": "http://accstorefront.csemea-csemeaprod-d3-public.model-t.cc.commerce.ondemand.com"},
+                { "key": "website.apparel-uk.https",                    "value": "https://accstorefront.csemea-csemeaprod-d3-public.model-t.cc.commerce.ondemand.com"}
+            ],
+            "webapps": [
+                { "name": "hac",                    "contextPath": "/hac" },
+                { "name": "mediaweb",               "contextPath": "/medias" },
+                { "name": "yacceleratorstorefront", "contextPath": "" },
+                { "name": "acceleratorservices",    "contextPath": "/acceleratorservices" },
+                { "name": "ycommercewebservices",   "contextPath": "/rest" }
+            ]
+        },
+        {
+            "name": "backgroundProcessing",
+            "properties": [
+                { "key": "cluster.node.groups",                               "value": "backgroundProcessing,integration,yHotfolderCandidate" },
+                { "key": "task.workers.max",                                  "value": "40" },
+                { "key": "impex.import.workers",                              "value": "8" },
+                { "key": "catalog.sync.workers",                              "value": "8" },
+                { "key": "task.polling.interval",                             "value": "1" },
+                { "key": "processengine.process.canjoinpreviousnode.default", "value": "true" }             
+            ],
+            "webapps": [
+                { "name": "hac",      "contextPath": "/hac"  },
                 { "name": "mediaweb", "contextPath": "/medias" }
             ]
-		}
-	],
-	"tests": {
-		"extensions": [ "kiwi", "tiger", "albinoaddon" ],
-		"annotations": [ "UnitTests", "IntegrationTests" ],
-		"packages": [ "com.acme.*" ]
-	},
-	"webTests": {
-		"extensions": [ "albinostorefront" ],
-		"excludedPackages": [ "de.hybris.*" ]
-	}
+        }
+    ],
+    "tests": {
+        "extensions": [ "kiwi", "tiger", "albinoaddon" ],
+        "annotations": [ "UnitTests", "IntegrationTests" ],
+        "packages": [ "com.acme.*" ]
+    },
+    "webTests": {
+        "extensions": [ "albinostorefront" ],
+        "excludedPackages": [ "de.hybris.*" ]
+    }
 }
