@@ -163,14 +163,5 @@
                 { "name": "mediaweb", "contextPath": "/medias" }
             ]
         }
-    ],
-    "tests": {
-        "extensions": [ "kiwi", "tiger", "albinoaddon" ],
-        "annotations": [ "UnitTests", "IntegrationTests" ],
-        "packages": [ "com.acme.*" ]
-    },
-    "webTests": {
-        "extensions": [ "yacceleratorstorefront" ],
-        "excludedPackages": [ "de.hybris.*" ]
-    }
+    ]
 }
