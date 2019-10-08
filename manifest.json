@@ -2,7 +2,6 @@
     "commerceSuiteVersion": "1905.0",
     "troubleshootingModeEnabled": true,
     "extensions": [
-        "mcc",
         "backoffice",
         "platformbackoffice",
         "basecommercebackoffice",
@@ -32,7 +31,6 @@
         "smarteditaddon",
         "cmssmartedit",
         "cmsbackoffice",
-        "cmsmulticountrycockpit",
         "multicountrysampledataaddon",
         "textfieldconfiguratortemplatebackoffice",
         "textfieldconfiguratortemplateaddon",
@@ -41,7 +39,6 @@
         "assistedservicepromotionaddon",
         "pcmbackofficesamplesaddon",
         "customsitefulfilmentprocess",
-        "customsitecockpits",
         "customsitecore",
         "customsitefacades",
         "customsitetest",
