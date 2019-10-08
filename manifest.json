@@ -60,12 +60,12 @@
     "storefrontAddons": [
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
@@ -75,57 +75,57 @@
         },
         {
             "addon": "b2bacceleratoraddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgsamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsampledataaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "yb2bacceleratorstorefront",
+            "storefront": "powertoolsstore",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -184,7 +184,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yb2bacceleratorstorefront",
+                    "name": "powertoolsstore",
                     "contextPath": ""
                 }
             ]
