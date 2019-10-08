@@ -48,10 +48,7 @@
         "acceleratorservices",
         "commerceservices",
         "springintegrationlibs",
-        "commerceservices",
-        "azurecloud",
-        "cloudhotfolder",
-        "azurecloudhotfolder"
+        "commerceservices"
     ],
     "storefrontAddons": [
         {
@@ -122,13 +119,13 @@
     ],
     "properties": [
         {
-			"key": "lang.packs",
-			"value": "de,en"
-		},
-		{
-			"key": "googleApiKey",
-			"value": ""
-		},
+            "key": "lang.packs",
+            "value": "de,en"
+        },
+        {
+            "key": "googleApiKey",
+            "value": ""
+        },
         {
             "key": "hac.webroot",
             "value": "/hac"
