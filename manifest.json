@@ -1,64 +1,62 @@
 {
-   "commerceSuiteVersion": "6.7.0.1",
-   "extensions": [
-"modeltacceleratorservices",
-"mcc",
-"adaptivesearchsolr",
-"adaptivesearchbackoffice",
-"adaptivesearchsamplesaddon",
-"adaptivesearchwebservices",
-"b2bcommercebackoffice",
-"solrfacetsearchbackoffice",
-"yacceleratorcockpits",
-"yacceleratorinitialdata",
-"yacceleratorfulfilmentprocess",
-"ycommercewebservices",
-"ycommercewebservicestest",
-"orderselfserviceaddon",
-"powertoolsstore",
-"solrserver",
-"acceleratorwebservicesaddon",
-"b2bacceleratoraddon",
-"commerceorgaddon",
-"commerceorgsamplesaddon",
-"customersupportbackoffice",
-"customerticketingaddon",
-"rulebuilderbackoffice",
-"couponbackoffice",
-"droolsruleengineservices",
-"couponfacades",
-"promotionenginesamplesaddon",
-"textfieldconfiguratortemplatebackoffice",
-"textfieldconfiguratortemplateaddon",
-"cmswebservices",
-"smarteditwebservices",
-"cmssmarteditwebservices",
-"permissionswebservices",
-"smarteditaddon",
-"cmssmartedit",
-"cmsbackoffice",
-"assistedservicestorefront",
-"assistedservicewebservices",
-"previewpersonalizationweb",
-"personalizationcmsweb",
-"personalizationsmartedit",
-"personalizationpromotionssmartedit",
-"personalizationsampledataaddon",
-"personalizationpromotions",
-"personalizationpromotionsweb",
-"personalizationservicesbackoffice",
-"personalizationpromotionsbackoffice",
-"personalizationcmsbackoffice",
-"personalizationsearchbackoffice",
-"personalizationsearchsmartedit",
-"personalizationsearchweb",
-"personalizationsearchsamplesaddon",
-"assistedserviceatddtests",
-"promotionengineatddtests",
-"textfieldconfiguratortemplateatddtests",
-"pcmbackofficesamplesaddon",
-"yb2bacceleratorstorefront"
-   ],
+    "commerceSuiteVersion": "1905.0",
+    "extensions": [
+        "modeltacceleratorservices",
+        "adaptivesearchsolr",
+        "adaptivesearchbackoffice",
+        "adaptivesearchsamplesaddon",
+        "adaptivesearchwebservices",
+        "b2bcommercebackoffice",
+        "solrfacetsearchbackoffice",
+        "yacceleratorinitialdata",
+        "yacceleratorfulfilmentprocess",
+        "ycommercewebservices",
+        "ycommercewebservicestest",
+        "orderselfserviceaddon",
+        "powertoolsstore",
+        "solrserver",
+        "acceleratorwebservicesaddon",
+        "b2bacceleratoraddon",
+        "commerceorgaddon",
+        "commerceorgsamplesaddon",
+        "customersupportbackoffice",
+        "customerticketingaddon",
+        "rulebuilderbackoffice",
+        "couponbackoffice",
+        "droolsruleengineservices",
+        "couponfacades",
+        "promotionenginesamplesaddon",
+        "textfieldconfiguratortemplatebackoffice",
+        "textfieldconfiguratortemplateaddon",
+        "cmswebservices",
+        "smarteditwebservices",
+        "cmssmarteditwebservices",
+        "permissionswebservices",
+        "smarteditaddon",
+        "cmssmartedit",
+        "cmsbackoffice",
+        "assistedservicestorefront",
+        "assistedservicewebservices",
+        "previewpersonalizationweb",
+        "personalizationcmsweb",
+        "personalizationsmartedit",
+        "personalizationpromotionssmartedit",
+        "personalizationsampledataaddon",
+        "personalizationpromotions",
+        "personalizationpromotionsweb",
+        "personalizationservicesbackoffice",
+        "personalizationpromotionsbackoffice",
+        "personalizationcmsbackoffice",
+        "personalizationsearchbackoffice",
+        "personalizationsearchsmartedit",
+        "personalizationsearchweb",
+        "personalizationsearchsamplesaddon",
+        "assistedserviceatddtests",
+        "promotionengineatddtests",
+        "textfieldconfiguratortemplateatddtests",
+        "pcmbackofficesamplesaddon",
+        "yb2bacceleratorstorefront"
+    ],
     "storefrontAddons": [
         {
             "addon": "adaptivesearchsamplesaddon",
@@ -70,7 +68,7 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+        {
             "addon": "acceleratorwebservicesaddon",
             "storefront": "ycommercewebservices",
             "template": "ycommercewebservices"
@@ -80,7 +78,7 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+        {
             "addon": "commerceorgaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
@@ -90,7 +88,7 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+        {
             "addon": "customerticketingaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
@@ -100,7 +98,7 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+        {
             "addon": "textfieldconfiguratortemplateaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
@@ -110,7 +108,7 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		{
+        {
             "addon": "personalizationsampledataaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
@@ -131,22 +129,22 @@
             "template": "yacceleratorstorefront"
         }
     ],
-   "properties": [
+    "properties": [
         {
-            "key": "test.property.1",
-            "value": "test.property.1.value"
+            "key": "lang.packs",
+            "value": "de,en"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value"
+            "key": "googleApiKey",
+            "value": ""
         },
         {
-     	 	"key":"hac.webroot",
-     	 	"value":"/hac"
-    	}
+            "key": "hac.webroot",
+            "value": "/hac"
+        }
     ],
-   "aspects": [
-         {
+    "aspects": [
+        {
             "name": "backoffice",
             "properties": [],
             "webapps": [
@@ -167,13 +165,13 @@
         {
             "name": "accstorefront",
             "properties": [
-               {
+                {
                     "key": "regioncache.queryregion.evictionpolicy",
                     "value": "LRU"
                 },
                 {
-                    "key":"storefrontContextRoot",
-                    "value":""
+                    "key": "storefrontContextRoot",
+                    "value": ""
                 }
             ],
             "webapps": [
@@ -191,7 +189,7 @@
                 }
             ]
         },
-       {
+        {
             "name": "backgroundProcessing",
             "properties": [
                 {
@@ -213,7 +211,7 @@
                 {
                     "key": "task.polling.interval",
                     "value": "1"
-                }               
+                }
             ],
             "webapps": [
                 {
@@ -230,15 +228,5 @@
                 }
             ]
         }
-    ],
-    "tests": {
-        "extensions": ["yb2bacceleratorstorefront"],
-        "annotations": ["UnitTests", "IntegrationTests"],
-        "packages": ["de.hybris.infra.*"]
-    },
-    "webTests": {
-        "extensions": ["yb2bacceleratorstorefront"],
-        "excludedPackages": ["de.hybris.platform.*"]
-    }
+    ]
 }
-
