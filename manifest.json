@@ -51,8 +51,7 @@
         "personalizationsearchsmartedit",
         "personalizationsearchweb",
         "personalizationsearchsamplesaddon",
-        "pcmbackofficesamplesaddon",
-        "yb2bacceleratorstorefront"
+        "pcmbackofficesamplesaddon"
     ],
     "storefrontAddons": [
         {
