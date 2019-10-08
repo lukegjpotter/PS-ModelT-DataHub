@@ -126,6 +126,14 @@
     ],
     "properties": [
         {
+			"key": "lang.packs",
+			"value": "de,en"
+		},
+		{
+			"key": "googleApiKey",
+			"value": ""
+		},
+        {
             "key": "hac.webroot",
             "value": "/hac"
         }
