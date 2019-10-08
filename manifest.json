@@ -13,6 +13,7 @@
         "solrfacetsearchbackoffice",
         "ycommercewebservices",
         "ycommercewebservicestest",
+        "apparelstore",
         "electronicsstore",
         "acceleratorwebservicesaddon",
         "orderselfserviceaddon",
@@ -38,12 +39,6 @@
         "assistedservicewebservices",
         "assistedservicepromotionaddon",
         "pcmbackofficesamplesaddon",
-        "customsitefulfilmentprocess",
-        "customsitecore",
-        "customsitefacades",
-        "customsitetest",
-        "customsiteinitialdata",
-        "customsitestorefront",
         "personalizationsearchsamplesaddon",
         "acceleratorservices",
         "commerceservices",
@@ -53,7 +48,7 @@
     "storefrontAddons": [
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
@@ -63,57 +58,57 @@
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgsamplesaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicepromotionaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "customsitestorefront",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -168,7 +163,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "customsitestorefront",
+                    "name": "apparelstore",
                     "contextPath": ""
                 }
             ]
