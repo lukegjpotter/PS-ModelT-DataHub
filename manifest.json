@@ -48,7 +48,7 @@
     "storefrontAddons": [
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
@@ -58,57 +58,57 @@
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgsamplesaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicepromotionaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "electronicsstore",
+            "storefront": "apparelstore",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -141,7 +141,7 @@
                 },
                 {
                     "name": "backoffice",
-                    "contextPath": "/backoffice"
+                    "contextPath": ""
                 }
             ]
         },
@@ -151,20 +151,48 @@
                 {
                     "key": "regioncache.queryregion.evictionpolicy",
                     "value": "LRU"
+                },
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.save",
+                    "value": "async"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
+                    "value": "/"
+                },
+                {
+                    "key": "storefrontContextRoot",
+                    "value": ""
                 }
             ],
             "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
                 {
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
+                },
+                {
                     "name": "electronicsstore",
-                    "contextPath": ""
+                    "contextPath": "/electronicsstore"
+                },
+                {
+                    "name": "apparelstore",
+                    "contextPath": "/apparelstore"
+                },
+                {
+                    "name": "yacceleratorstorefront",
+                    "contextPath": "/yacceleratorstorefront"
                 }
             ]
         },
@@ -204,6 +232,28 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
+                }
+            ]
+        },
+        {
+            "name": "api",
+            "properties": [],
+            "webapps": [
+                {
+                    "name": "ycommercewebservices",
+                    "contextPath": "/rest"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
+                {
+                    "name": "permissionswebservices",
+                    "contextPath": "/permissionswebservices"
                 }
             ]
         }
