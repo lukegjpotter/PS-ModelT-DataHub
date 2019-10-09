@@ -48,7 +48,7 @@
     "storefrontAddons": [
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
@@ -58,57 +58,57 @@
         },
         {
             "addon": "orderselfserviceaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "customerticketingaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "commerceorgsamplesaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "promotionenginesamplesaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicepromotionaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "pcmbackofficesamplesaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "apparelstore",
+            "storefront": "electronicsstore",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -163,7 +163,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "apparelstore",
+                    "name": "electronicsstore",
                     "contextPath": ""
                 }
             ]
