@@ -13,6 +13,8 @@
         "yacceleratorstorefront",
         "electronicsstore",
         "apparelstore",
+		"yb2bacceleratorstorefront",
+		"powertoolsstore",
         "acceleratorwebservicesaddon",
         "orderselfserviceaddon",
         "customersupportbackoffice",
@@ -169,19 +171,9 @@
             "template": "yacceleratorstorefront"
         },
         {
-            "addon": "acceleratorwebservicesaddon",
-            "storefront": "ycommercewebservices",
-            "template": "ycommercewebservices"
-        },
-        {
             "addon": "profiletagaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "cmsoccaddon",
-            "storefront": "ycommercewebservices",
-            "template": "ycommercewebservices"
         },
         {
             "addon": "ordermanagementaddon",
@@ -207,6 +199,91 @@
             "addon": "xyformsstorefrontcommons",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "acceleratorwebservicesaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "cmsoccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "consignmenttrackingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "multicountrysampledataaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "ordermanagementaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "xyformssamples",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "xyformsstorefrontcommons",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapymktrecommendationaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "b2bacceleratoraddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
         }
     ],
     "properties": [
@@ -217,6 +294,10 @@
         {
             "key": "googleApiKey",
             "value": ""
+        },
+		{
+            "key": "yb2bacceleratorstorefront.illegalrequirementstest.excluded",
+            "value": "true"
         },
         {
             "key": "multicountrysampledataaddon.import.active",
@@ -250,7 +331,16 @@
     "aspects": [
         {
             "name": "backoffice",
-            "properties": [],
+            "properties": [
+				{
+                    "key": "xyformsservices.webroot.override",
+                    "value": "true"
+                },
+                {
+                    "key": "xyformsservices.webroot.path",
+                    "value": "/backoffice"
+                }
+			],
             "webapps": [
                 {
                     "name": "hac",
@@ -325,6 +415,14 @@
                     "key": "website.apparel-de.https",
                     "value": "https://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
                 },
+				{
+                    "key": "website.powertools.http",
+                    "value": "http://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com/yb2b"
+                },
+                {
+                    "key": "website.powertools.https",
+                    "value": "https://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com/yb2b"
+                },
                 {
                     "key": "xss.filter.header.X-Frame-Options",
                     "value": ""
@@ -338,6 +436,10 @@
                 {
                     "name": "yacceleratorstorefront",
                     "contextPath": ""
+                },
+				{
+                    "name": "yb2bacceleratorstorefront",
+                    "contextPath": "/yb2b"
                 },
                 {
                     "name": "acceleratorservices",
@@ -486,6 +588,14 @@
                 {
                     "key": "website.apparel-de.https",
                     "value": "https://apparel-de.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key": "website.powertools.http",
+                    "value": "http://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com/yb2b"
+                },
+                {
+                    "key": "website.powertools.https",
+                    "value": "https://powertools.csemea-csemeaprod-d4-public.model-t.cc.commerce.ondemand.com/yb2b"
                 }
             ],
             "webapps": [
