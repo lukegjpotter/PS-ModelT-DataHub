@@ -1,5 +1,6 @@
 {
-    "commerceSuiteVersion": "1905.0",
+    "commerceSuiteVersion": "1905.12",
+	
     "extensions": [
         "adaptivesearchsolr",
         "adaptivesearchbackoffice",
@@ -85,12 +86,7 @@
         "odata2webservices",
         "odata2webservicesfeaturetests",
         "integrationbackoffice",
-        "modeltacceleratorservices",
-        "xyformsbackoffice",
-        "xyformssamples",
-        "xyformsstorefrontcommons",
-        "xyformsweb",
-        "orbeonweb"
+        "modeltacceleratorservices"
     ],
     "storefrontAddons": [
         {
@@ -189,16 +185,6 @@
             "template": "yacceleratorstorefront"
         },
         {
-            "addon": "xyformssamples",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "xyformsstorefrontcommons",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
             "addon": "acceleratorwebservicesaddon",
             "storefront": "ycommercewebservices",
             "template": "ycommercewebservices"
@@ -225,41 +211,12 @@
         {
             "key": "apiregistryservices.events.exporting",
             "value": "false"
-        },
-        {
-            "key": "orbeonweb.orbeon.persistence.uri",
-            "value": "https://localhost:8088/xyformsweb/fr/service/hybris"
-        },
-        {
-            "key": "xyformsservices.orbeon.url.address",
-            "value": "http://localhost:8081/web-orbeon"
-        },
-        {
-            "key": "xyformsstorefrontcommons.orbeon.keystoreFile",
-            "value": "/opt/hybris/bin/platform/tomcat/lib/keystore"
-        },
-        {
-            "key": "xyformsservices.webroot.override",
-            "value": "true"
-        },
-        {
-            "key": "xyformsservices.webroot.path",
-            "value": ""
         }
     ],
     "aspects": [
         {
             "name": "backoffice",
-            "properties": [
-                {
-                    "key": "xyformsservices.webroot.override",
-                    "value": "true"
-                },
-                {
-                    "key": "xyformsservices.webroot.path",
-                    "value": "/backoffice"
-                }
-            ],
+            "properties": [],
             "webapps": [
                 {
                     "name": "hac",
@@ -272,14 +229,6 @@
                 {
                     "name": "backoffice",
                     "contextPath": "/backoffice"
-                },
-                {
-                    "name": "orbeonweb",
-                    "contextPath": "/web-orbeon"
-                },
-                {
-                    "name": "xyformsweb",
-                    "contextPath": "/xyformsweb"
                 }
             ]
         },
@@ -419,14 +368,6 @@
                 {
                     "name": "adaptivesearchwebservices",
                     "contextPath": "/adaptivesearchwebservices"
-                },
-                {
-                    "name": "orbeonweb",
-                    "contextPath": "/web-orbeon"
-                },
-                {
-                    "name": "xyformsweb",
-                    "contextPath": "/xyformsweb"
                 }
             ]
         },
