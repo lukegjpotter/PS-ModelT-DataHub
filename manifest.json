@@ -219,10 +219,6 @@
             "properties": [],
             "webapps": [
                 {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
@@ -312,10 +308,6 @@
                 {
                     "name": "ycommercewebservices",
                     "contextPath": "/rest"
-                },
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
                 },
                 {
                     "name": "smartedit",
