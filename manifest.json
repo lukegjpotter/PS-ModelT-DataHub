@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "1905.12",
+    "commerceSuiteVersion": "1811.26",
 	
     "extensions": [
         "adaptivesearchsolr",
@@ -35,6 +35,7 @@
         "smarteditaddon",
         "smartedit",
         "cmssmartedit",
+		"previewwebservices",
         "cmsbackoffice",
         "cmsoccaddon",
         "previewpersonalizationweb",
